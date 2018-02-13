@@ -1,0 +1,80 @@
+/* 
+    Created on : 08-nov-2017, 10:40:34
+    Author     : Julio
+*/
+div{
+    text-align: center;
+
+}
+div#logo{
+    background-color:#ffff33
+}
+div#titulo{
+    background-color:#ff6666;
+}
+div#ranking{
+    background-color:#009900
+}
+div#pos1{
+    background-color:#33ff66
+}
+div#pos2{
+    background-color:#33ff66
+}
+div#pos3{
+    background-color:#33ff66
+}
+div#pos4{
+    background-color:#33ff66
+}
+div#newcarrera{
+    background-color:#ff9933
+}
+div#carrera{
+    background-color:#ccff33;
+}
+div#run{
+    background-color:#ff6666
+}
+div#pos5{
+    background-color:#ccff66;
+}
+div#pos6{
+    background-color:#ccff66;
+}
+div#pos7{
+    background-color:#ccff66;
+}
+div#pos8{
+    background-color:#ccff66;
+}
+div#borrar{
+    background-color:#ff9933
+}
+div#pos9{
+    background-color:#000066;
+}
+div#finalizar{
+    background-color:#ff9933
+}
+div#pos9 > div{
+    background-color:#33ffff;
+}
+div#newcarrera:hover{
+    background-color:#ff6600
+}
+div#borrar:hover{
+    background-color:#ff6600
+}
+div#finalizar:hover{
+    background-color:#ff6600
+}
+div#run:hover{
+    background-color:#ff3333;
+}
+div#eliminarSprint{
+    background-color:#ff9933
+}
+div#eliminarSprint:hover{
+    background-color:#ff6600
+}

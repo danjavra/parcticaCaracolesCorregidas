@@ -1,0 +1,137 @@
+
+.header>div:nth-of-type(2)>h1{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1.3em;
+}
+.header>div:first-child>div{
+    margin-top: 20px;
+    padding: 1.3em
+}
+.main>div:first-child>div:first-child>h1{
+    padding: 0.5em;
+    border: 1px solid darkgreen;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main>div:nth-of-type(2)>div>button{
+    padding: 0.4em;
+    margin: 20px 15px;
+    width: 100%;
+}
+            /*----Ranking----*/
+.main>div:first-child>div:nth-of-type(2)>div>span:nth-of-type(3){
+     display:block;
+ }
+.main>div:first-child>div:nth-of-type(2)>div>span:nth-of-type(1n+1){
+    font-weight: bold;
+}
+.main>div:first-child>div:nth-of-type(2)>div{
+    border: 1px solid darkgreen;
+}
+            /*----Nueva Carrera----*/
+.main>div:first-child>div:nth-of-type(3)>button{
+    padding: 0.5em;
+    margin-top: 15px;
+    border: 1px solid darkblue;
+}
+
+.main>div:first-child>div:nth-of-type(4)>div:first-child{
+    padding:0.5em;
+    border:1px solid darkgreen;
+    font-weight:bold;
+}
+
+.main>div:first-child>div:nth-of-type(4)>div:nth-of-type(1n+1){
+    border: 1px solid darkgreen;
+}
+
+.main>div:first-child>div:nth-of-type(4)>div:nth-of-type(1n+1)>span:last-child{
+    display: block;
+}
+
+.main>div:first-child>div:nth-of-type(4)>div:nth-of-type(1n+1)>span:nth-of-type(1n+1){
+   font-weight: bold;
+}
+
+.main>div:first-child>div:nth-of-type(4)>button{
+    padding: 0.5em;
+    border: 1px solid darkblue;
+}
+
+#NuevaLap{
+    margin-top: 15px;
+}
+
+/*.main>div:first-child>div:nth-of-type(2),*/
+/*.main>div:first-child>div:nth-of-type(3),*/
+/*.main>div:first-child>div:nth-of-type(4),*/
+/*.main>div:first-child>div:nth-of-type(5){*/
+    /*border: 1px solid #1f6728;*/
+/*}*/
+/*.main>div:first-child>div:nth-of-type(2)>span:nth-of-type(3),*/
+/*.main>div:first-child>div:nth-of-type(3)>span:nth-of-type(3),*/
+/*.main>div:first-child>div:nth-of-type(4)>span:nth-of-type(3),*/
+/*.main>div:first-child>div:nth-of-type(5)>span:nth-of-type(3){*/
+    /*display:block;*/
+/*}*/
+/*.main>div:first-child>div:nth-of-type(2)>span,*/
+/*.main>div:first-child>div:nth-of-type(3)>span,*/
+/*.main>div:first-child>div:nth-of-type(4)>span,*/
+/*.main>div:first-child>div:nth-of-type(5)>span{*/
+    /*font-weight: bold;*/
+/*}*/
+            /*!*---NUEVA CARRERA-----*!*/
+.main>div:first-child>div:nth-of-type(6)>button{
+    width: 100%;
+    margin: 20px 0;
+    padding: 0.4em;
+}
+.main>div:first-child>div:nth-of-type(7)>div,
+.main>div:first-child>div:nth-of-type(7)>button{
+    padding: 0.5em;
+    border: 1px solid #1f6728;
+    font-weight: bold;
+}
+/*.main>div:first-child>div:nth-of-type(8),*/
+/*.main>div:first-child>div:nth-of-type(9),*/
+/*.main>div:first-child>div:nth-of-type(10),*/
+/*.main>div:first-child>div:nth-of-type(11){*/
+    /*border: 1px solid #1f6728;*/
+
+/*}*/
+
+.main>div:first-child>div:nth-of-type(8)>span:nth-of-type(3),
+.main>div:first-child>div:nth-of-type(9)>span:nth-of-type(3),
+.main>div:first-child>div:nth-of-type(10)>span:nth-of-type(3),
+.main>div:first-child>div:nth-of-type(11)>span:nth-of-type(3){
+    display: block;
+}
+@media (max-width: 768px) {
+    .main>div:first-child>div:nth-of-type(8)>span:nth-of-type(3),
+    .main>div:first-child>div:nth-of-type(9)>span:nth-of-type(3),
+    .main>div:first-child>div:nth-of-type(10)>span:nth-of-type(3),
+    .main>div:first-child>div:nth-of-type(11)>span:nth-of-type(3){
+        display: inline-block;
+        padding: 0.5em;
+
+    }
+}
+
+.main>div:first-child>div:nth-of-type(8)>span,
+.main>div:first-child>div:nth-of-type(9)>span,
+.main>div:first-child>div:nth-of-type(10)>span,
+.main>div:first-child>div:nth-of-type(11)>span{
+    font-weight: bold;
+}
+
+            /*---BORRAR SPRINT-----*/
+
+.main>div:last-child>div:nth-of-type(2)>table,td,tr,th{
+    font-size: 14px;
+    border: 1px solid #1f6728;
+    padding: 0.5em;
+}
+.main>div:last-child>div:nth-of-type(2n+1){
+    margin-top: 10px;
+}

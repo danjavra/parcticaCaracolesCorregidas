@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row header">
+        <div class="col-md-2 col-sm-2 hidden-xs">
+            <div class="bg-primary">Logo</div>
+        </div>
+        <div class="col-md-10 col-sm-10">
+            <h1 class="bg-danger text-center ">CARRERAS DE CARACOLES</h1>
+        </div>
+    </div>
+    <div class="row main" id="nuevaCarrera">
+        <div class="col-md-6 col-sm-12 col-xs-12 ">
+            <div class="row col-md-12 col-sm-12" id="ranking">
+                <h1 class="bg-success text-center">RANKING</h1>
+            </div>
+            <div class="col-md-12 col-sm-12" id="CaracolRanking"></div>
+
+            <div class="row col-md-12 col-sm-12" id="buttonNueva">
+                <button class="btn-primary col-md-12 col-sm-12 col-xs-12" onclick="nuevaCarrera()">Nueva Carrera</button>
+            </div>
+
+            <div class="row col-md-12 col-sm-12" id="NuevaLap"></div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="row col-md-12 col-sm-12" id="borrarSprint"></div>
+            <div class="col-md-12 col-sm-12" id="sprintResult"></div>
+            <div class="row col-md-12 col-sm-12" id="buttonFinaliza"></div>
+        </div>
+    </div>
+</div>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="Practica04Sintesi.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Carrera.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="Arrays.js" type="text/javascript"></script>
+        <style>
+            #row>div{
+                border:1px solid black;
+            }
+            #row>div>div{
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body onload="mostraArray()">
+        <div class="container-fluid">
+            <div id="row" class="col-xs-12 col-sm-12 col-md-12">
+                <div id="logo" class="hidden-xs col-sm-4 col-md-3">LOGO</div>
+                <div id="titulo" class="col-xs-12 col-sm-8 col-md-9">CARRERAS CARACOLES</div>
+                <div id="row" class="col-xs-12 col-sm-12 col-md-6">
+                    <div id="ranking" onclick="revertir()" class="col-xs-12 col-sm-12 col-md-12">RANKING</div>
+                    <div id="pos1" class="col-xs-12 col-sm-6 col-md-6">1r:</div>
+                    <div id="pos2" class="col-xs-12 col-sm-6 col-md-6">2n:</div>
+                    <div id="pos3" class="col-xs-12 col-sm-6 col-md-6">3r:</div>
+                    <div id="pos4" class="col-xs-12 col-sm-6 col-md-6">4r:</div>
+                    <div id="newcarrera" style="cursor:pointer" onclick="newCarrera()" class="col-xs-12">NUEVA CARRERA</div>
+                    <div id="carrera" class="col-xs-8">SPRINT -</div>
+                    <div id="run" style="cursor:pointer" onclick="calcularDistancia()" class="col-xs-4">!RUN¡</div>
+                    <div id="pos5" class="col-xs-6 col-sm-6 col-md-6">1r:</div>
+                    <div id="pos6" class="col-xs-6 col-sm-6 col-md-6">2n:</div>
+                    <div id="pos7" class="col-xs-6 col-sm-6 col-md-6">3r:</div>
+                    <div id="pos8" class="col-xs-6 col-sm-6 col-md-6">4r:</div>
+                </div>
+                <div id="row" class="col-xs-12 col-xs-12 col-md-6">
+                    <div id="borrar" style="cursor:pointer" onclick="borrarSprint()" class="col-xs-12">BORRAR SPRINT</div>
+                    <div id="pos9" class="col-xs-12"></div>
+                    <div id="finalizar" style="cursor:pointer" onclick="finalizar()" class="col-xs-12">FINALIZAR CARRERA</div>
+                    <div id="sprintelimni" class="col-xs-12">SPRINTS ELIMINADOS</div>
+                    <div id="listeliminados" class="col-xs-12"></div>
+                    <div id="eliminarSprint" style="cursor:pointer" onclick="eliminar()" class="col-xs-12">Eliminar Sprint del Array</div>
+
+                </div>
+            </div>
+        </div>
+        <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html>
